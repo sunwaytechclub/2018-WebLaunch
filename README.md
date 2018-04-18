@@ -115,12 +115,12 @@ Check out the [slides](https://docs.google.com/presentation/d/1JNq8nGdHXat6GMdY6
 	.container {
 		...
 		border: 1px solid white;
-		box-shadow: 2px 6px 25px rgba(0,0,0,0.1);
+		box-shadow: 2px 6px 25px lightgrey;
 	}
 	```
-
-10. In RGBA, RGB - Red, Green, Blue. A stands for Alpha. It is used for setting the opacity of the color.
-11. Now we can add some extra **padding** to the **paragraph** and **image** elements to make it look cleaner.
+ 
+10. Now we can add some extra **padding** to the **paragraph**. 
+11. Add paddings to **image** elements as well to make it look cleaner.
 
 	```css 
 	.container p {
@@ -190,7 +190,7 @@ Check out the [slides](https://docs.google.com/presentation/d/1JNq8nGdHXat6GMdY6
 		...
 		border: 0px;
 		background-color: #FFB0BE;
-		box-shadow: 1px 4px 6px rgba(0,0,0,0.1);
+		box-shadow: 1px 4px 6px lightgrey;
 	}
 	```
 
@@ -211,7 +211,7 @@ Check out the [slides](https://docs.google.com/presentation/d/1JNq8nGdHXat6GMdY6
 
 	```css 
 	button:hover {
-			box-shadow: 1px 4px 16px rgba(0,0,0,0.2);
+			box-shadow: 1px 4px 16px lightgrey;
 	}
 	```
 
