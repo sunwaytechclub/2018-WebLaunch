@@ -5,37 +5,116 @@
 	<title>Order Form</title>
 	<meta charset = "utf-8">
 	<!-- Insert Bulma Code here -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+
 	<!-- Insert link to style.css here. -->
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
-	<div>
-		<img src = "banner.jpg" alt = "Shop Accessories Banner" style ="max-width: 1260px;">
-	</div>
+	<!-- Navigation bar -->
+	<nav class="navbar is-transparent">
 
-	<div class="items-container">
-		<div class = "container">
-			<h1>Order Form</h1>
-			<form method = "post">
-				<!-- Set size = "30", 50 is too long. -->
-				Name: <input type = "text" name = "name" size = "30" maxlength = "30"><br><br>
-				Items: <input type = "checkbox" name = "earings"> Earrings<br><br>
-				Number:
-					<select>
-					  <option id = "0" selected>0</option>
-					  <option id = "1">1</option>
-					  <option id = "2">2</option>
-					  <option id = "3">3</option>
-					  <option id = "4">4</option>
-					</select><br><br>
-				Comments:<br>
-			<textarea name = "name" rows = "4" cols = "40"></textarea>
-			<br><br>
-				<input type = "submit" value = "Submit"> <input type = "reset">
-			</form>
+		<!-- Brand Logo -->
+	  <div class="navbar-brand">
+	    <a class="navbar-item" href="index.html">
+	      <h1 class="title">SHOP</h1>
+	    </a>
+	  </div>
+
+	  <div id="navbarExampleTransparentExample" class="navbar-menu">
+	  	<!-- Left Side -->
+	    <div class="navbar-start">
+	      <a class="navbar-item" href="index.html">
+	        Home
+	      </a>
+	      <a class="navbar-item" href="products.html">
+	        Products
+	      </a>
+	    </div>
+
+			<!-- Right Side -->
+	    <div class="navbar-end">
+	      <div class="navbar-item">
+	        <div class="field">
+	          <p class="control">
+	            <a class="button is-info" href="register.html">
+	              <span>Register</span>
+	            </a>
+	          </p>
+	        </div>
+	      </div>
+	    </div>
+
+	  </div>
+	</nav>
+
+	<!-- Main Section -->
+	<div class="section">
+		<div class="container">
+			<div class="columns is-centered">
+				  <div class="column is-6">
+						<h1 class="title">Order Form</h1>
+						<div class="box">
+							<form method = "post">
+
+								<div class="field">
+									<label class="label">Name</label>
+									<div class="control">
+										<input class="input" type="text" name="name" size="30" maxlength="30">
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">Items</label>
+									<div class="control">
+										<label class="checkbox">
+										  <input type="checkbox">
+										  Earrings
+										</label>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">Number</label>
+									<div class="control">
+										<div class="select">
+											<select>
+											  <option id = "0" selected>0</option>
+											  <option id = "1">1</option>
+											  <option id = "2">2</option>
+											  <option id = "3">3</option>
+											  <option id = "4">4</option>
+											</select>
+										</div>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">Comments</label>
+									<div class="control">
+										<textarea class="textarea" placeholder="e.g. Hello world"></textarea>
+									</div>
+								</div>
+
+								<input class="button is-primary" type="submit" value="Submit">
+								<input class="button" type="reset">
+							</form>
+						</div>
+					</div>
+			</div>
 		</div>
 	</div>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+	    <div class="content has-text-centered">
+				<p>© Sunway Tech Club 2018</p>
+			</div>
+		</div>
+	</footer>
 </body>
 
 </html>

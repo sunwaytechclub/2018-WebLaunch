@@ -7,90 +7,156 @@
 	<meta charset = "utf-8">
 
 	<!-- Insert Bulma Code here -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
 
 	<!-- Insert link to style.css here. -->
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 <body>
+	<!-- Navigation bar -->
+	<nav class="navbar is-transparent">
+
+		<!-- Brand Logo -->
+	  <div class="navbar-brand">
+	    <a class="navbar-item" href="index.html">
+	      <h1 class="title">SHOP</h1>
+	    </a>
+	  </div>
+
+	  <div id="navbarExampleTransparentExample" class="navbar-menu">
+	  	<!-- Left Side -->
+	    <div class="navbar-start">
+	      <a class="navbar-item" href="index.html">
+	        Home
+	      </a>
+	      <a class="navbar-item" href="products.html">
+	        Products
+	      </a>
+	    </div>
+
+			<!-- Right Side -->
+	    <div class="navbar-end">
+	      <div class="navbar-item">
+	        <div class="field">
+	          <p class="control">
+	            <a class="button is-info" href="register.html">
+	              <span>Register</span>
+	            </a>
+	          </p>
+	        </div>
+	      </div>
+	    </div>
+
+	  </div>
+	</nav>
+
+	<!-- Banner -->
 	<div>
-		<img src = "banner.jpg" alt = "Shop Accessories Banner" style ="max-width: 100%;">
+		<img src="banner.jpg" alt="Shop Accessories Banner" style="max-width: 100%;">
 	</div>
 
-	<div class="items-container">
+	<!-- Products -->
+	<div class="section">
 		<div class="container">
-			<img src = "earings.jpg" alt = "Diamond Earrings">
-			<table border = "0" style = "text-align: center;">
-				<tr>
-					<td><h3  style = "width: 150px;">Item</h3></td>
-					<td style = "width: 150px;">Earing</td>
-				</tr>
-				<tr>
-					<td><h3 style = "width: 150px;">Material</h3></td>
-					<td style = "width: 150px;">Diamond & gold</td>
-				</tr>
-				<tr>
-					<td><h3 style = "width: 150px;">Price</h3></td>
-					<td style = "width: 150px;">RM 350</td>
-				</tr>
-			</table>
-			<p style = "font-style: italic;">This earing is made from Italy. It is mainly designed by diamonds. Hence, the price for it will be a bit expensive but it is quite reasonable as by just paying RM 350, you will be able to obtain the product already :) Click <a href = "https://www.dillards.com/search-term/bridal+accessories/accessories"> here </a>for more designs.</p>
-			<div style = "text-align: center;">
-				<a href = "order.html"><button type = "button">Order</button></a>
-			</div>
-		</div>
+			<div class="columns is-centered">
+				<div class="column is-3">
+					<div class="box center">
+				    <figure class="image">
+				      <img src="earings.jpg" alt="Placeholder image">
+				    </figure>
 
-		<div class="container">
-			<img src = "earings.jpg" alt = "Diamond Earrings">
-			<table border = "0" style = "text-align: center;">
-				<tr>
-					<td><h3  style = "width: 150px;">Item</h3></td>
-					<td style = "width: 150px;">Earing</td>
-				</tr>
-				<tr>
-					<td><h3 style = "width: 150px;">Material</h3></td>
-					<td style = "width: 150px;">Diamond & gold</td>
-				</tr>
-				<tr>
-					<td><h3 style = "width: 150px;">Price</h3></td>
-					<td style = "width: 150px;">RM 350</td>
-				</tr>
-			</table>
-			<p style = "font-style: italic;">This earing is made from Italy. It is mainly designed by diamonds. Hence, the price for it will be a bit expensive but it is quite reasonable as by just paying RM 350, you will be able to obtain the product already :) Click <a href = "https://www.dillards.com/search-term/bridal+accessories/accessories"> here </a>for more designs.</p>
-			<div style = "text-align: center;">
-				<a href = "order.html"><button type = "button">Order</button></a>
-			</div>
-		</div>
+			    	<table class="table is-bordered margin-top center">
+			    		<tr>
+			    			<td><h4>Item</h4></td>
+			    			<td>Earing</td>
+			    		</tr>
+			    		<tr>
+			    			<td><h4>Material</h4></td>
+			    			<td>Diamond & gold</td>
+			    		</tr>
+			    		<tr>
+			    			<td><h4>Price</h4></td>
+			    			<td>RM 350</td>
+			    		</tr>
+			    	</table>
 
-		<div class="container">
-			<img src = "earings.jpg" alt = "Diamond Earrings">
-			<table border = "0" style = "text-align: center;">
-				<tr>
-					<td><h3  style = "width: 150px;">Item</h3></td>
-					<td style = "width: 150px;">Earing</td>
-				</tr>
-				<tr>
-					<td><h3 style = "width: 150px;">Material</h3></td>
-					<td style = "width: 150px;">Diamond & gold</td>
-				</tr>
-				<tr>
-					<td><h3 style = "width: 150px;">Price</h3></td>
-					<td style = "width: 150px;">RM 350</td>
-				</tr>
-			</table>
-			<p style = "font-style: italic;">This earing is made from Italy. It is mainly designed by diamonds. Hence, the price for it will be a bit expensive but it is quite reasonable as by just paying RM 350, you will be able to obtain the product already :) Click <a href = "https://www.dillards.com/search-term/bridal+accessories/accessories"> here </a>for more designs.</p>
-			<div style = "text-align: center;">
-				<a href = "order.html"><button type = "button">Order</button></a>
+			      <p>This earing is made from Italy. It is mainly designed by diamonds. Hence, the price for it will be a bit expensive but it is quite reasonable as by just paying RM 350, you will be able to obtain the product already :)</p>
+
+						<div class="has-text-centered">
+				      <a class="button is-primary" href="order.html">Order</a>
+				    </div>
+					</div>
+				</div>
+
+				<div class="column is-3">
+					<div class="box center">
+				    <figure class="image">
+				      <img src="earings.jpg" alt="Placeholder image">
+				    </figure>
+
+			    	<table class="table is-bordered margin-top center">
+			    		<tr>
+			    			<td><h4>Item</h4></td>
+			    			<td>Earing</td>
+			    		</tr>
+			    		<tr>
+			    			<td><h4>Material</h4></td>
+			    			<td>Diamond & gold</td>
+			    		</tr>
+			    		<tr>
+			    			<td><h4>Price</h4></td>
+			    			<td>RM 350</td>
+			    		</tr>
+			    	</table>
+
+			      <p>This earing is made from Italy. It is mainly designed by diamonds. Hence, the price for it will be a bit expensive but it is quite reasonable as by just paying RM 350, you will be able to obtain the product already :)</p>
+
+						<div class="has-text-centered">
+				      <a class="button is-primary" href="order.html">Order</a>
+				    </div>
+					</div>
+				</div>
+
+				<div class="column is-3">
+					<div class="box center">
+				    <figure class="image">
+				      <img src="earings.jpg" alt="Placeholder image">
+				    </figure>
+
+			    	<table class="table is-bordered margin-top center">
+			    		<tr>
+			    			<td><h4>Item</h4></td>
+			    			<td>Earing</td>
+			    		</tr>
+			    		<tr>
+			    			<td><h4>Material</h4></td>
+			    			<td>Diamond & gold</td>
+			    		</tr>
+			    		<tr>
+			    			<td><h4>Price</h4></td>
+			    			<td>RM 350</td>
+			    		</tr>
+			    	</table>
+
+			      <p>This earing is made from Italy. It is mainly designed by diamonds. Hence, the price for it will be a bit expensive but it is quite reasonable as by just paying RM 350, you will be able to obtain the product already :)</p>
+
+						<div class="has-text-centered">
+				      <a class="button is-primary" href="order.html">Order</a>
+				    </div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<footer>
-		<a class="fa fa-facebook"></a>
-		<a class="fa fa-instagram"></a>
-		<a class="fa fa-twitter"></a>
-		<p>© Sunway Tech Club 2018</p>
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+	    <div class="content has-text-centered">
+				<p>© Sunway Tech Club 2018</p>
+			</div>
+		</div>
 	</footer>
 </body>
 
