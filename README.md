@@ -1,10 +1,10 @@
-# 2018-WebLaunch
+# Bulma
 
-WebLaunch 2018 is a web theme workshop series that teach how to build a website. 
+WebLaunch 2018 is a web theme workshop series that teach how to build a website.
 
-## Target Audience
-
-Anyone who are interested in learning how to build a website, with or without any coding experience. 
+## References
+- [Slides](https://docs.google.com/presentation/d/1EINM-2g2o4XJ43eMLRwzm-4Lw4sJFIDKSBjML1s015A/edit?usp=sharing)
+- [Bulma](https://bulma.io/)
 
 ## Workshop Material
 
