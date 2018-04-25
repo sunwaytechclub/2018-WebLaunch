@@ -1,10 +1,10 @@
 # 2018-WebLaunch
 
-WebLaunch 2018 is a web theme workshop series that teach how to build a website. 
+WebLaunch 2018 is a web theme workshop series that teach how to build a website.
 
-## Target Audience
+## References
 
-Anyone who are interested in learning how to build a website, with or without any coding experience. 
+[Slides]() (Not yet available)
 
 ## Workshop Material
 
