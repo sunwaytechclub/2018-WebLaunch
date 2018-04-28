@@ -1,6 +1,9 @@
 function countToFive() {
-  for(var i = 1; i <= 5; i++) {
-    console.log(i);
+  var counter = 1;
+
+  while(counter <= 5) {
+    console.log("Counter: " + counter);
+    counter++;
   }
 }
 
