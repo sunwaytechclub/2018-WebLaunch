@@ -41,11 +41,16 @@
   }
 
   function addItem() {
-    var liText = prompt("Add: ");
-    var newLi = document.createElement("LI");
-    var createNew = document.createTextNode(liText);
-    newLi.appendChild(createNew);
-    document.getElementById("todolist").appendChild(newLi);
+    if(document.getElementById("todolist").childNodes.length > 3) {
+      alert("You already have 3 items!");
+    }
+    else {
+      var liText = prompt("Add: ");
+      var newLi = document.createElement("LI");
+      var createNew = document.createTextNode(liText);
+      newLi.appendChild(createNew);
+      document.getElementById("todolist").appendChild(newLi);
+    }
   }
 
   function removeItem() {
