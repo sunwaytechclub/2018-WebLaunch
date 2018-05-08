@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Change Element Test</title>
+</head>
+
+<body>
+
+  <div>
+    <p>
+      <span id="change-text">Change me into a different text!</span>
+      <br>
+      <button onclick="changetext()">Change text!</button>
+    </p>
+    <p>
+      <span id="change-color">Change me into a different color!</span>
+      <br>
+      <button onclick="changecolor()">Change color!</button>
+    </p>
+    <p>
+      <span id="change-font">Change me into a different font!</span>
+      <br>
+      <button onclick="changefont()">Change font!</button>
+    </p>
+  </div>
+
+<script>
+
+  function changetext() {
+    document.getElementById("change-text").innerText = "CHANGED!";
+  }
+
+  function changecolor() {
+    document.getElementById("change-color").style.color = "red";
+  }
+
+  function changefont() {
+    document.getElementById("change-font").style.fontFamily = "Courier";
+  }
+
+
+</script>
+</body>
+</html>

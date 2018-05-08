@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document Object Model</title>
+</head>
+<body>
+
+  <h1>This is a place to test out DOM manipulation!</h1>
+
+  <div id="working">
+
+    <hr>
+    <h2>getElementById</h2>
+    <div id="getElementByIdExample">
+      <span>getElementById Example!</span>
+    </div>
+    <button onclick="getElementByIdEg()">Click me!</button>
+
+    <hr>
+    <h2>getElementsByClassName</h2>
+    <div class="getElementsByClassNameExample">
+        getElementsByClassName Example! :D
+    </div>
+    <button onclick="getElementsByClassNameEg()">Click me!</button>
+
+    <hr>
+    <h2>getElementByTagName</h2>
+    <div>
+      <h3>PRINT THIS!</h3>
+    </div>
+    <button onclick="getElementByTagNameEg()">Click me!</button>
+
+    <hr>
+    <h2>createElement</h2>
+    <div>
+      <h4>myList</h4>
+      <ul id="list"></ul>
+    </div>
+    <button onclick="createElementEg()">Click Me!</button>
+
+    <hr>
+    <h2>Getting element info</h2>
+    <div>
+      <div id="colorEg" style="color: red">TEXT HERE</div>
+    </div>
+    <button onclick="getElementStyle()">Click me!</button>
+
+    <hr>
+    <h2>Changing element style</h2>
+    <div>
+      <div id="colorChanger" style="color: red">Make me green!</div>
+    </div>
+    <button onclick="changeElementStyle()">Click me!</button>
+
+    <hr>
+    <h2>Changing element style by hover</h2>
+    <div>
+      <div id="colorHover" style="color: red">Make me green!</div>
+    </div>
+    <button onmouseover="changeColorHover('green')" onmouseout="changeColorHover('red')">Hover over me!</button>
+
+  </div>
+
+  <hr>
+  <h2>To Do List</h2>
+  <div id="todo">
+    <ul id="todolist">
+
+    </ul>
+    <button onclick="addItem()">Add item</button>
+    <button onclick="removeItem()">Remove first item</button>
+  </div>
+
+  <hr>
+  <h2>Loop Test</h2>
+  <div>
+    <ul id="loopTest">
+
+    </ul>
+  </div>
+  <button onclick="looper('name')">Print Names</button>
+  <button onclick="looper('price')">Print Prices</button>
+  <button onclick="looper('weight')">Print Weight</button>
+  <button onclick="clearFruits()">Clear Fruits</button>
+
+  <script src="./test.js"></script>
+</body>
+</html>

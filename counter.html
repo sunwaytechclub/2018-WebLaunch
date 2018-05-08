@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Counter Test</title>
+</head>
+<body>
+
+<h2>Counter</h2>
+
+<div>
+  <span id="counter">0</span>
+
+  <p>
+    <button onclick="countDown()">-1</button>
+    <button onclick="countUp()">+1</button>
+  </p>
+</div>
+
+<script>
+  var countNum = 0;
+  function countUp(val) {
+    var countPrint = document.getElementById("counter");
+    countNum++;
+    countPrint.innerText = countNum;
+  }
+
+  function countDown(val) {
+    var countPrint = document.getElementById("counter");
+    countNum--;
+    countPrint.innerText = countNum;
+  }
+</script>
+</body>
+</html>

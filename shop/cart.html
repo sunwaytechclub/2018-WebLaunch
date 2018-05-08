@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <title>Order Form</title>
+  <meta charset = "utf-8">
+  <!-- Insert Bulma Code here -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+
+  <!-- Insert link to style.css here. -->
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar is-transparent">
+
+    <!-- Brand Logo -->
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        <h1 class="title">SHOP</h1>
+      </a>
+    </div>
+
+    <!-- Left Side -->
+    <div class="navbar-start">
+      <a class="navbar-item" href="index.html">
+        Home
+      </a>
+      <a class="navbar-item" href="products.html">
+        Products
+      </a>
+    </div>
+
+    <!-- Right Side -->
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <a class="button is-info" href="cart.html">
+          <span>Cart</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Section -->
+  <div class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-6">
+          <h1 class="title">Registration</h1>
+          <div class="box">
+            <form method = "post">
+
+              <div class="field">
+                <label class="label">Username</label>
+                <div class="control">
+                  <input class="input" type="text" name="username">
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                  <input class="input" type="email" name="email">
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Password</label>
+                <div class="control">
+                  <input class="input" type="password" name="password">
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Password Confirmation</label>
+                <div class="control">
+                  <input class="input" type="password" name="password_confirmation">
+                </div>
+              </div>
+
+              <input class="button is-primary" type="submit" value="Sign Up">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>© Sunway Tech Club 2018</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
