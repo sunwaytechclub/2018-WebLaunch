@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
+body {
+	/* background-color: black; */
+	/* to check if the CSS tile is linked */
+	background-color: #F2F2F2;
+	font-family: 'Alegreya Sans', sans-serif;
+	margin: 0;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.table h4 {
+	margin: 0;
+}
+
+.margin-top {
+	margin-top: 24px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
